@@ -37,10 +37,12 @@ body {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(0, 0, 0, 0.2);
   color: rgba(0, 0, 0, 0.8);
-  font-weight: bold;
+  font-weight: 600;
   font-size: 12px;
 }
-
+.controls_btns button:active {
+  transform: scale(0.98);
+}
 .controls .controls_colors {
   display: flex;
 }
@@ -53,4 +55,5 @@ body {
 }
 
 .controls .controls_range {
+  margin-bottom: 30px;
 }
